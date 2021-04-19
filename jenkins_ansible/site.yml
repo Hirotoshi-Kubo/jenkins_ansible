@@ -1,0 +1,6 @@
+---
+- name: test
+  hosts: ec2
+  become: yes
+  roles:
+    - ruby
